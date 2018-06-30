@@ -49,6 +49,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="indicatorView" destination="F70-rZ-6y1" id="V8Y-rO-ByN"/>
+                        <outlet property="label" destination="QZR-9m-Qfe" id="fRX-l1-apc"/>
+                        <outlet property="previewView" destination="mU5-wt-8xk" id="coU-nC-jGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
