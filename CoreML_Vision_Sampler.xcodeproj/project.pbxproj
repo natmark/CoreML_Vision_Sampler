@@ -11,6 +11,7 @@
 		E74338FC20E7B3EA00CDAD97 /* MLModelCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */; };
 		E74338FF20E7B41400CDAD97 /* CaptureAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74338FD20E7B41400CDAD97 /* CaptureAnalyzer.swift */; };
 		E743390020E7B41400CDAD97 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74338FE20E7B41400CDAD97 /* CaptureSession.swift */; };
+		E743390220E7B42B00CDAD97 /* MobileNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743390120E7B42B00CDAD97 /* MobileNet.swift */; };
 		E744F39020E776A5003C8831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744F38F20E776A5003C8831 /* AppDelegate.swift */; };
 		E744F39520E776A6003C8831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E744F39320E776A6003C8831 /* Main.storyboard */; };
 		E744F39720E776A9003C8831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E744F39620E776A9003C8831 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLModelCompiler.swift; sourceTree = "<group>"; };
 		E74338FD20E7B41400CDAD97 /* CaptureAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureAnalyzer.swift; sourceTree = "<group>"; };
 		E74338FE20E7B41400CDAD97 /* CaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
+		E743390120E7B42B00CDAD97 /* MobileNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNet.swift; sourceTree = "<group>"; };
 		E744F38C20E776A5003C8831 /* CoreML_Vision_Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML_Vision_Sampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E744F38F20E776A5003C8831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E744F39420E776A6003C8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				E744F38F20E776A5003C8831 /* AppDelegate.swift */,
 				E744F3AD20E7B21E003C8831 /* ViewController.swift */,
 				E74338F920E7B3C700CDAD97 /* Either.swift */,
+				E743390120E7B42B00CDAD97 /* MobileNet.swift */,
 				E74338FD20E7B41400CDAD97 /* CaptureAnalyzer.swift */,
 				E74338FE20E7B41400CDAD97 /* CaptureSession.swift */,
 				E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */,
@@ -151,6 +154,7 @@
 				E74338FC20E7B3EA00CDAD97 /* MLModelCompiler.swift in Sources */,
 				E74338FA20E7B3C700CDAD97 /* Either.swift in Sources */,
 				E744F39020E776A5003C8831 /* AppDelegate.swift in Sources */,
+				E743390220E7B42B00CDAD97 /* MobileNet.swift in Sources */,
 				E74338FF20E7B41400CDAD97 /* CaptureAnalyzer.swift in Sources */,
 				E743390020E7B41400CDAD97 /* CaptureSession.swift in Sources */,
 			);
