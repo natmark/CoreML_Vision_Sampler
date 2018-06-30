@@ -17,7 +17,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compiling MLModel..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZR-9m-Qfe">
+                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="z1Z-x1-jsX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mU5-wt-8xk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="625"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="F70-rZ-6y1">
+                                <rect key="frame" x="169" y="294" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QZR-9m-Qfe" secondAttribute="bottom" id="420-a9-YIg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QZR-9m-Qfe" secondAttribute="trailing" id="7Qv-zg-U4X"/>
+                            <constraint firstItem="F70-rZ-6y1" firstAttribute="centerY" secondItem="mU5-wt-8xk" secondAttribute="centerY" id="9cv-cH-1ep"/>
+                            <constraint firstItem="F70-rZ-6y1" firstAttribute="centerX" secondItem="mU5-wt-8xk" secondAttribute="centerX" id="Deb-6m-WeA"/>
+                            <constraint firstItem="mU5-wt-8xk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DpF-3C-mv1"/>
+                            <constraint firstItem="mU5-wt-8xk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="U6s-xu-QtB"/>
+                            <constraint firstItem="QZR-9m-Qfe" firstAttribute="top" secondItem="mU5-wt-8xk" secondAttribute="bottom" id="tdz-Wa-m1q"/>
+                            <constraint firstItem="QZR-9m-Qfe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xav-UL-f8U"/>
+                            <constraint firstItem="mU5-wt-8xk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zfn-Cg-rYz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
