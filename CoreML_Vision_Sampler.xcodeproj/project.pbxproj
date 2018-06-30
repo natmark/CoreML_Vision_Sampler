@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E74338FA20E7B3C700CDAD97 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74338F920E7B3C700CDAD97 /* Either.swift */; };
+		E74338FC20E7B3EA00CDAD97 /* MLModelCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */; };
 		E744F39020E776A5003C8831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744F38F20E776A5003C8831 /* AppDelegate.swift */; };
 		E744F39520E776A6003C8831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E744F39320E776A6003C8831 /* Main.storyboard */; };
 		E744F39720E776A9003C8831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E744F39620E776A9003C8831 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		E74338F920E7B3C700CDAD97 /* Either.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
+		E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLModelCompiler.swift; sourceTree = "<group>"; };
 		E744F38C20E776A5003C8831 /* CoreML_Vision_Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML_Vision_Sampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E744F38F20E776A5003C8831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E744F39420E776A6003C8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E744F38F20E776A5003C8831 /* AppDelegate.swift */,
 				E744F3AD20E7B21E003C8831 /* ViewController.swift */,
 				E74338F920E7B3C700CDAD97 /* Either.swift */,
+				E74338FB20E7B3EA00CDAD97 /* MLModelCompiler.swift */,
 				E744F39320E776A6003C8831 /* Main.storyboard */,
 				E744F39620E776A9003C8831 /* Assets.xcassets */,
 				E744F39820E776A9003C8831 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E744F3AE20E7B21E003C8831 /* ViewController.swift in Sources */,
+				E74338FC20E7B3EA00CDAD97 /* MLModelCompiler.swift in Sources */,
 				E74338FA20E7B3C700CDAD97 /* Either.swift in Sources */,
 				E744F39020E776A5003C8831 /* AppDelegate.swift in Sources */,
 			);
